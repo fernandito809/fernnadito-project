@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.relative {
+                position: relative;
+                width: 900px;
+                height:350px;
+                border: 3px solid #73AD21;
+               
+            }
+
+            div.absolute1 {
+                position: absolute;
+                bottom: 20px;
+                
+                width: 200px;
+                height:100px;
+                border: 3px solid blue;
+            }
+            
+            div.absolute2 {
+                position: absolute;
+                bottom: 20px;
+                left: 210px;
+
+                width: 200px;
+                height: 100px;
+                border: 3px solid red;
+            }
+
+            div.absolute3 {
+                position: absolute;
+                bottom: 20px;
+                left: 420px;
+
+                width: 200px;
+                height: 100px;
+                border: 3px solid yellow;
+            }
+
+            div.absolute4 {
+                position: absolute;
+                bottom: 20px;
+                left: 630px;
+
+                width: 200px;
+                height: 100px;
+                border: 3px solid purple;
+            }
+            div.absolute5 {
+                position: absolute;
+                bottom: 20px;
+                left: 840px;
+
+                width: 50px;
+                height: 100px;
+                border: 3px solid orange;
+            }
+
+            div.absolute6 {
+                position: absolute;
+                bottom: 135px;
+                left: 840px;
+
+                width: 50px;
+                height: 100px;
+                border: 3px solid black;
+            }
+
+            div.absolute7 {
+                position: absolute;
+                bottom: 250px;
+                left: 840px;
+
+                width: 50px;
+                height: 100px;
+                border: 3px solid blue;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h2>position: absolute;</h2>
+
+        <p>An element with position: absolute, is positined relative to the nearest positioned
+            ancestor (instead of positioned relative to the viewport, like fixed:)
+        </p>
+
+        <div class="relative">Relative Div;
+            <div class="absolute1">Absolute1 Div;</div>
+            <div class="absolute2">Aboslute2 Div;</div>
+            <div class="absolute3">Absolute3 Div;</div>
+            <div class="absolute4">Absolute4 Div;</div>
+            <div class="absolute5">Absolute5 Div;</div>
+            <div class="absolute6">Absolute6 Div;</div>
+            <div class="absolute7">Absolute7 Div;</div>
+        </div>
+    </body>
